@@ -6,7 +6,8 @@ angular.module('openWeatherApp', [
   'openWeatherApp.filters',
   'openWeatherApp.services',
   'openWeatherApp.directives',
-  'openWeatherApp.controllers'
+  'openWeatherApp.controllers',
+  "iso-3166-country-codes"
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/forecast', {templateUrl: 'partials/forecast.html', controller: 'OpenWeatherCtrl'});

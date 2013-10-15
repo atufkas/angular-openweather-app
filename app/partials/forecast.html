@@ -8,7 +8,7 @@
                             <label class="sr-only" for="location">City</label>
                             <input ng-model="location" type="text" class="form-control" id="location" placeholder="City">
                         </div>
-                        <button ng-click="getForecastByLocation()" type="submit" class="btn btn-primary" style="opacity: 1">Show me!</button>
+                        <button ng-click="getForecastByLocation()" type="submit" class="btn btn-primary">Show me!</button>
                         <span class="form-group" ng-show="message">
                             <span class="alert"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;{{message}}</span>
                         </span>
@@ -21,7 +21,7 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="well well-sm">
-                    <h2>{{forecast.city.name}}</h2>
+                    <h2>{{forecast.city.name | placeholder:'?'}}, {{forecast.city.country | isoCountry}}</h2>
                     <small>Lon: {{forecast.city.coord.lon | number:2}} Lat: {{forecast.city.coord.lat | number:2}} Population: {{forecast.city.population | number:0}}</small>
                 </div>
             </div>

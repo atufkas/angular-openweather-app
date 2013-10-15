@@ -7,7 +7,7 @@ angular.module('openWeatherApp.controllers', [])
   //
   // Controller for "open weather map" data mapping
   //
-  .controller('OpenWeatherCtrl', ['$scope','openWeatherMap',function($scope,openWeatherMap) {
+  .controller('OpenWeatherCtrl', ['$scope','openWeatherMap','ISO3166',function($scope,openWeatherMap,ISO3166) {
 
     $scope.hasState = '';
     $scope.iconBaseUrl = 'http://openweathermap.org/img/w/';
