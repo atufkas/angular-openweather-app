@@ -1,11 +1,19 @@
 {
   "name": "angular-openweather-app",
   "description": "seeding an AngularJS weather app",
+  "version": "0.1.0",
+  "author": {
+    "name": "Matthias Lienau",
+    "email": "matthias@mlienau.de"
+  },
+  "scripts": {
+    "start": "node scripts/web-server.js"
+  },
   "devDependencies": {
-        "phantomjs" : "*",
-        "karma" : "*",
-        "karma-junit-reporter" : "*",    
-        "karma-jasmine" : "*",
-        "karma-ng-scenario" : "*"
-    }
+      "phantomjs" : "*",
+      "karma" : "*",
+      "karma-junit-reporter" : "*",
+      "karma-jasmine" : "*",
+      "karma-ng-scenario" : "*"
+  }
 }
