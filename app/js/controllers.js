@@ -9,11 +9,6 @@ angular.module('openWeatherApp.controllers', [])
   //
   .controller('OpenWeatherCtrl', ['$scope','openWeatherMap',function($scope,openWeatherMap) {
 
-    var tstamp = new Date();
-    tstamp.setHours(0,0,0,0);
-    var fcDate = Math.round(tstamp.getTime() / 1000);
-//    fcDate.setHours(0,0,0,0);
-
     $scope.hasState = '';
     $scope.iconBaseUrl = 'http://openweathermap.org/img/w/';
 
