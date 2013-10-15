@@ -1,6 +1,6 @@
 # angular-openweather-app — seeding an AngularJS weather app
 
-This is a small AngularJS app that makes usage of the OpenWeatherMap API for displaying weather data and forecasts
+This is a small AngularJS app that makes usage of the [OpenWeatherMap](http://openweathermap.org/) API for displaying weather data and forecasts
 based on a given location (city).
 
 This project serves as an example app I refer to within an article/post I'm going to publish for a German
@@ -76,6 +76,6 @@ for desktop and mobile use?
 
 [The MIT License](http://opensource.org/licenses/MIT)
 
-All data provided by the great service and API of [http://openweathermap.com](OpenWeatherMap).
+All data provided by the great service and API of [OpenWeatherMap](http://openweathermap.org/).
 
 Copyright (c) 2013 Matthias Lienau &lt;matthias@mlienau.de&gt;
