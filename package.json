@@ -1,0 +1,11 @@
+{
+  "name": "angular-openweather-app",
+  "description": "seeding an AngularJS weather app",
+  "devDependencies": {
+        "phantomjs" : "*",
+        "karma" : "*",
+        "karma-junit-reporter" : "*",    
+        "karma-jasmine" : "*",
+        "karma-ng-scenario" : "*"
+    }
+}

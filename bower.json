@@ -1,0 +1,27 @@
+{
+  "name": "angular-pyramise",
+  "version": "0.0.0",
+  "authors": [
+    "Matthias Lienau <matthias@mlienau.de>"
+  ],
+  "description": "An angular experiment.",
+  "main": "app/index.html",
+  "keywords": [
+    "angular",
+    "todo",
+    "pyramide"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/atufkas/angular-pyramise",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.0"
+  }
+}

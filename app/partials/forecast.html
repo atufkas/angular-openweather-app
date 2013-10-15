@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="well well-sm">
+                <form class="form-inline" role="form">
+                    <div class="form-group {{hasState}}">
+                        <label class="sr-only" for="location">Stadt oder Ort...</label>
+                        <input ng-model="location" type="text" class="form-control" id="location" placeholder="Hamburg">
+                    </div>
+                    <button ng-click="getForecastByLocation()" type="submit" class="btn btn-primary" style="opacity: 1">Show!</button>
+                    <span ng-show="message" class="alert alert-info">{{message}}</span>
+                </form>
+            </div>
+        </div>
+        <div class="col-xs-12">
+            <div ng-show="forecast.city.name" class="well well-sm"><h2>Forecast: {{forecast.city.name}} (Population: {{forecast.city.population | number:0}})</h2></div>
+            <div weather-panel="forecast" show-num="1" show-entry="forecast.list[0]"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-6">
+            <div weather-panel="forecast" show-num="1" show-entry="forecast.list[1]"></div>
+        </div>
+        <div class="col-xs-6">
+            <div weather-panel="forecast" show-num="1" show-entry="forecast.list[2]"></div>
+        </div>
+    </div>
+</div>

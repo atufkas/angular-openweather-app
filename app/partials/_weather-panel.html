@@ -1,0 +1,28 @@
+<div class="weather panel panel-default">
+    <div class="panel-heading">{{forecast.city.name}}: {{forecast.list[0].dt | date:'yyyy-MM-dd HH:mm:ss Z'}}</div>
+    <div class="panel-body">
+        <h1>{{forecast.city.name}} {{forecast.list[0].temp.day | number:1}}°C</h1>
+        <p class="lead">
+            <img ng-src="{{getIconImageUrl(forecast.list[0].weather[0].icon)}}" />
+
+            {{forecast.list[0].weather[0].main}} - {{forecast.list[0].weather[0].description}}
+        </p>
+        <p>
+            <table class="table-striped table-bordered table-condensed">
+                <thead>
+                    <tr>
+                        <th>Longitude</th>
+                        <th>Latitude</th>
+                        <th>Einwohner</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{{forecast.city.coord.lon}}</td>
+                        <td>{{forecast.city.coord.lat}}</td>
+                        <td>{{forecast.city.population | number:0}}</td>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+</div>
