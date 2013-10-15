@@ -20,9 +20,11 @@
     <div class="weather-data" ng-show="true">
         <div class="row">
             <div class="col-xs-12">
-                <div class="well well-sm">
-                    <h2>{{forecast.city.name | placeholder:'?'}}, {{forecast.city.country | isoCountry}}</h2>
-                    <small>Lon: {{forecast.city.coord.lon | number:2}} Lat: {{forecast.city.coord.lat | number:2}} Population: {{forecast.city.population | number:0}}</small>
+                <div class="">
+                    <h3>
+                        {{forecast.city.name | placeholder:'?'}}, {{forecast.city.country | isoCountry}}
+                        <small>Lon: {{forecast.city.coord.lon | number:2}} Lat: {{forecast.city.coord.lat | number:2}} Population: {{forecast.city.population | number:0}}</small>
+                    </h3>
                 </div>
             </div>
         </div>
