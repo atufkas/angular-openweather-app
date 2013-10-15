@@ -25,7 +25,7 @@ angular.module('openWeatherApp.controllers', [])
 
       if ($scope.location == '' || $scope.location == undefined) {
         $scope.hasState = 'has-warning';
-        $scope.message = 'Please provide a location...';
+        $scope.message = 'Please provide a location';
         return;
       }
 
