@@ -26,7 +26,7 @@ angular.module('openWeatherApp.directives', [])
         forecast: '=weatherPanel'
       },
 
-      templateUrl: 'partials/_weather-panel-dyn.html',
+      templateUrl: 'partials/_weather-panel-light.html',
 
       link: function(scope, element, attrs) {
         // Get icon image url

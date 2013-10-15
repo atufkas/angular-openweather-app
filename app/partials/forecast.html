@@ -13,7 +13,10 @@
             </div>
         </div>
         <div class="col-xs-12">
-            <div ng-show="forecast.city.name" class="well well-sm"><h2>Forecast: {{forecast.city.name}} (Population: {{forecast.city.population | number:0}})</h2></div>
+            <div ng-show="forecast.city.name" class="well well-sm">
+                <h2>Forecast: {{forecast.city.name}}</h2>
+                <small>Lon: {{forecast.city.coord.lon | number:2}} Lat: {{forecast.city.coord.lat | number:2}} Population: {{forecast.city.population | number:0}}</small>
+            </div>
             <div weather-panel="forecast" show-num="1" show-entry="forecast.list[0]"></div>
         </div>
     </div>

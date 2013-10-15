@@ -5,10 +5,15 @@ body {
     padding-bottom: 180px;
 }
 
-/*.margin-base-vertical {*/
-    /*margin: 40px 0;*/
-/*}*/
+.weather.panel {
+    /*font-weight: lighter !important;*/
+}
 
-.pyram:HOVER {
+.weather.panel .panel-heading {
+    font-weight: lighter !important;
+    font-size: 1.2em;
+}
 
+.weather.panel .panel-footer {
+    font-weight: lighter !important;
 }
