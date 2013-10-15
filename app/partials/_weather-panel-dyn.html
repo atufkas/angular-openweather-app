@@ -1,5 +1,5 @@
 <div class="weather panel panel-default">
-    <div class="panel-heading">Date: {{ parseDate(useDayForecast.dt) | date:'yyyy-MM-dd HH:mm:ss Z'}}</div>
+    <div class="panel-heading">{{ parseDate(useDayForecast.dt) | date:'fullDate'}}</div>
     <div class="panel-body">
         <h2>{{useDayForecast.weather[0].main}} {{useDayForecast.temp.day | number:1}}°C</h2>
         <p class="lead">
