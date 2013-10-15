@@ -1,27 +1,28 @@
-# angular-openweather-app — seeding an AngularJS weather app
+# angular-openweather-app — a weather forecast app written in AngularJS
 
-This is a small AngularJS app that makes usage of the [OpenWeatherMap](http://openweathermap.org/) API for displaying weather data and forecasts
-based on a given location (city).
+<img src="app/img/app_screenshot2_v_0-1-0.png" alt="OpenWeather App"/>
 
-This project serves as an example app I refer to within an article/post I'm going to publish for a German
-web technology magazine and in my blog.
+"OpenWeather App" is a small AngularJS project that makes use of the [OpenWeatherMap](http://openweathermap.org/)
+API for displaying weather data and forecasts based on a given location (city).
+
+_This project basically serves as an example app I refer to within an article/post about AngularJS
+I'm going to publish for a German web technology magazine and in my blog._
 
 angular-openweather-app is build upon:
 
-* AngularJS v1.2.0-rc.2
-* Bootstrap v3.0.0
+* [AngularJS v1.2.0-rc.2](https://github.com/angular/angular.js) / [angular-seed](https://github.com/angular/angular-seed)
+* [iso-3166-country-codes-angular](https://github.com/BluePyth/iso-3166-country-codes-angular)
+* [Bootstrap v3.0.0](https://github.com/twbs/bootstrap)
 
-Points of interests / What is this app showing to those interested in AngularJS?
+Points of interests:
 
-* Building an angular weather app based on OpenWeatherMap (see "Contribute")
-* Bootstrapping an AngularJS app: Basic view(s), ng-app, ng-view
-* Defining a controller for handling the weather data $scope
+* Building an app with AngularJS
+* Building an app based on a OpenWeatherMap
+* Bootstrapping an AngularJS app: Basic modules and view definition, ng-app, ng-view
+* Defining a controller for handling the weather data in $scope
 * Defining a service for fetching weather data from openweathermap.com via JSONP
-* Defining a custom directive for instantly embedding kind of "weather data widget"
+* Defining a custom directive for instantly embedding sort of "weather data day panel"
 * Setting up unit and e2e-tests with karma/jasmine
-
-The app structure is based on the [angular-seed](https://github.com/angular/angular-seed)
-project.
 
 
 ## Installation
