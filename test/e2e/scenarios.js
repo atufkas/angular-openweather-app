@@ -24,7 +24,7 @@ describe('OpenWeather App', function() {
       expect(element('[ng-view] form button[type="submit"]').text()).toMatch(/Search!/);
     });
 
-    it('should display the location value of the first "city button" inside the search field', function() {
+    it('should map the value of an "instant city forecast" button to the input field', function() {
       element('[ng-view] form .btn-group > button:first-child').click();
       expect(element('[ng-view] form input#location').attr('value')).toBe('Hamburg');
     });
