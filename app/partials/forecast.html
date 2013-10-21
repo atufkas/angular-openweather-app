@@ -2,16 +2,17 @@
     <div class="weather-search">
         <div class="row">
             <div class="col-xs-12">
-                <div class="lead">
+                <div>
                     <form class="form-inline" role="form">
-                        <div class="form-group {{hasState}}">
+                        <span class="btn-group" >
+                            <button ng-repeat="item in exampleLocations" ng-click="setLocation(item)" type="submit" class="btn btn-default">{{item}}</button>
+                        </span>
+                        <span class="form-group {{hasState}}">
                             <label class="sr-only" for="location">City</label>
                             <input ng-model="location" type="text" class="form-control" id="location" placeholder="City">
-                        </div>
-                        <button ng-click="getForecastByLocation()" type="submit" class="btn btn-primary">Show me!</button>
-                        <span class="form-group" ng-show="message">
-                            <span class="alert"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;{{message}}</span>
                         </span>
+                        <button ng-click="getForecastByLocation(location)" type="submit" class="btn btn-primary">Search!</button>
+                        <span ng-show="message" class="alert"><span class="glyphicon glyphicon-arrow-left">&nbsp;</span>{{message}}</span>
                     </form>
                 </div>
             </div>

@@ -9,6 +9,14 @@ angular.module('openWeatherApp.services', ['ngResource'])
   //
   .value('version', '0.1.0')
 
+
+  //
+  // Define a standard list of "example locations"
+  //
+  .value('exampleLocations',['Hamburg','Tokyo','New York','Moscow','Clonakilty'])
+
+
+  //
   // Register service for openweathermap.com
   //
   // - Inject $resource from angular-resource context
