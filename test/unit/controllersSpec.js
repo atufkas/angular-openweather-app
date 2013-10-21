@@ -2,15 +2,28 @@
 
 /* jasmine specs for controllers go here */
 
-describe('controllers', function(){
+describe('OpenWeather App controllers', function(){
+
   beforeEach(module('openWeatherApp.controllers'));
+  beforeEach(module('openWeatherApp.services'));
+  beforeEach(module('iso-3166-country-codes'));
 
+  describe('OpenWeatherCtrl', function() {
+    var $scope, ctrl, $httpBackend;
 
-  it('should ....', inject(function() {
-    //spec body
-  }));
+    beforeEach(module('openWeatherApp'));
 
-  it('should ....', inject(function() {
-    //spec body
-  }));
+    beforeEach(inject(function(_$httpBackend_, $rootScope, $controller) {
+      $httpBackend = _$httpBackend_;
+      $httpBackend.expectGET('http://api.openweathermap.org/data/2.5').
+        respond([{forecast: {city: {name: 'Hamburg'} } }]);
+
+      $scope = $rootScope.$new();
+      ctrl = $controller('OpenWeatherCtrl', { $scope: $scope });
+    }));
+
+//    it('should set the default value of iconBaseUrl', function() {
+//      expect($scope.iconBaseUrl).toBe('http://openweathermap.org/img/w/');
+//    });
+  });
 });
