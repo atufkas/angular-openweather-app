@@ -1,6 +1,6 @@
 # angular-openweather-app — a weather forecast app written in AngularJS
 
-<img src="app/img/app_screenshot2_v_0-1-0.png" alt="OpenWeather App"/>
+<img src="app/img/app_screenshot_v_0-2-0.png" alt="OpenWeather App"/>
 
 "OpenWeather App" is a small AngularJS project that makes use of the [OpenWeatherMap](http://openweathermap.org/)
 service for fetching and displaying weather data and forecasts based on a given location (city).
