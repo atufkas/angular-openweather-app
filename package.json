@@ -1,7 +1,7 @@
 {
   "name": "angular-openweather-app",
   "description": "seeding an AngularJS weather app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Matthias Lienau",
     "email": "matthias@mlienau.de"

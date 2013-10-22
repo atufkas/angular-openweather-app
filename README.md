@@ -8,11 +8,13 @@ service for fetching and displaying weather data and forecasts based on a given 
 _This project basically serves as an example app I refer to within an article/post about AngularJS
 I'm going to publish for a German web technology magazine and in my blog._
 
-angular-openweather-app is build upon:
 
-* [AngularJS v1.2.0-rc.2](https://github.com/angular/angular.js) / [angular-seed](https://github.com/angular/angular-seed)
-* [iso-3166-country-codes-angular](https://github.com/BluePyth/iso-3166-country-codes-angular)
-* [Bootstrap v3.0.0](https://github.com/twbs/bootstrap)
+## Demo
+
+A demo installation can be found [here](http://w4.coprovider.de/atufkas/angular-openweather-app/app).
+
+
+## Why?
 
 Points of interests:
 
@@ -23,6 +25,12 @@ Points of interests:
 * Defining a service for fetching weather data from openweathermap.com via JSONP
 * Defining a custom directive for instantly embedding sort of "weather data day panel"
 * Setting up unit and e2e-tests with karma/jasmine
+
+angular-openweather-app uses:
+
+* [AngularJS v1.2.0-rc.2](https://github.com/angular/angular.js) / [angular-seed](https://github.com/angular/angular-seed)
+* [iso-3166-country-codes-angular](https://github.com/BluePyth/iso-3166-country-codes-angular)
+* [Bootstrap v3.0.0](https://github.com/twbs/bootstrap)
 
 
 ## Installation
@@ -64,7 +72,7 @@ Ideas, suggestions and pull requests are welcome. Someone willing to suggest a f
 for desktop and mobile use?
 
 
-### Todo
+## Todo
 
 * Make use (and parse) more provided weather data (+ add filters, formatting)
 * Internationalization / Localization
