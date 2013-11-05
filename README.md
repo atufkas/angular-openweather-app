@@ -18,7 +18,7 @@ A demo installation can be found [here](http://w4.coprovider.de/atufkas/angular-
 
 Points of interests:
 
-* Building an app with AngularJS
+* Building an app with AngularJS (of course!)
 * Building an app based on the [OpenWeatherMap API](http://openweathermap.org/API/)
 * Bootstrapping an AngularJS app: Basic modules and view definition, ng-app, ng-view
 * Defining a controller for handling the weather data in $scope
@@ -68,7 +68,7 @@ I especially refer to in my post/article will always be available under the git 
 
 ## Contribute!
 
-Ideas, suggestions and pull requests are welcome. Someone willing to suggest a fancy (responsive) design
+Ideas, suggestions and pull requests are welcome. Someone   willing to suggest a fancy (responsive) design
 for desktop and mobile use?
 
 
