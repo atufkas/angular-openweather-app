@@ -7,13 +7,13 @@ angular.module('openWeatherApp.services', ['ngResource'])
   //
   // Simple value service (kept from angular-seed dist)
   //
-  .value('version', '0.1.1')
+  .value('version', '0.1.2')
 
 
   //
   // Define a standard list of "example locations"
   //
-  .value('exampleLocations',['Hamburg','Tokyo','New York','Moscow','Clonakilty'])
+  .value('exampleLocations',['Hamburg','Berlin','Tokyo','New York','Moscow','Clonakilty'])
 
 
   //
