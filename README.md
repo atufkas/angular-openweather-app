@@ -11,7 +11,7 @@ I'm going to publish for a German web technology magazine and in my blog._
 
 ## Demo
 
-A demo installation can be found [here](http://w4.coprovider.de/atufkas/angular-openweather-app/app).
+A demo installation can be found [here](http://w4.matthias.de/angular-openweather-app/app/).
 
 
 ## Why?
