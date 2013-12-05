@@ -17,7 +17,7 @@ angular.module('openWeatherApp.services', ['ngResource'])
   //
   // Storm "Xaver" special locations
   //
-  .value('exampleLocations',['Sylt','St. Peter-Ording','Büsum','Bremerhaven','Hamburg','Kiel'])
+  .value('xaverLocations',['Sylt','St. Peter-Ording','Husum','Bremerhaven','Hamburg','Kiel','Lübeck'])
 
 
   //
