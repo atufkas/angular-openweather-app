@@ -5,8 +5,8 @@
 "OpenWeather App" is a small AngularJS project that makes use of the [OpenWeatherMap](http://openweathermap.org/)
 service for fetching and displaying weather data and forecasts based on a given location (city).
 
-_This project basically serves as an example app I refer to within an article/post about AngularJS
-I'm going to publish for a German web technology magazine and in my blog._
+_This project basically serves as an example app I refer to within an article about AngularJS
+I wrote for the German web technology magazine [t3n"](http://www.t3n.de)._
 
 
 ## Demo
@@ -58,17 +58,9 @@ Then navigate your browser to `http://localhost:<port>/app/index.html` to see th
 your browser.
 
 
-## Heads up! Related project "angular-openweather"
-
-Setting up a service and directive for handling OpenWeatherMap data inspired me to extract those parts
-and put it into a separate angular module-project called simply `angular-openweather` (coming soon).
-It will probably be included as a dependency by this project later on. The original version of this app
-I especially refer to in my post/article will always be available under the git tag tags/article-state.
-
-
 ## Contribute!
 
-Ideas, suggestions and pull requests are welcome. Someone   willing to suggest a fancy (responsive) design
+Ideas, suggestions and pull requests are welcome. Someone willing to suggest a fancy (responsive) design
 for desktop and mobile use?
 
 
