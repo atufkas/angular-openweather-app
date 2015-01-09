@@ -1,3 +1,11 @@
+### Note: Tagging + minor update on 2015/09/01 
+
+I renamed view partial file and variables for storm "Xaver" to more neutral "storm" and renamed "Storm Alarm!" link 
+in header bar so they refer to storms "Elon" and "Felix" currently making some wind over Northern Germany. Furthermore
+I introduced irregular tagging release states - see CHANGELOG for details.
+ 
+
+
 # angular-openweather-app — a weather forecast app written in AngularJS
 
 <img src="app/img/app_screenshot_v_0-2-0.png" alt="OpenWeather App"/>
