@@ -8,7 +8,8 @@ I introduced irregular tagging release states - see CHANGELOG for details.
 
 # angular-openweather-app — a weather forecast app written in AngularJS
 
-<img src="app/img/app_screenshot_v_0-2-0.png" alt="OpenWeather App"/>
+<img src="app/img/app_screenshot_v_0-1-0.png" alt="OpenWeather App Start Page"/>
+<img src="app/img/app_screenshot_v_0-1-4.png" alt="OpenWeather App Storm Special"/>
 
 "OpenWeather App" is a small AngularJS project that makes use of the [OpenWeatherMap](http://openweathermap.org/)
 service for fetching and displaying weather data and forecasts based on a given location (city).
@@ -19,7 +20,7 @@ I wrote for the German web technology magazine [t3n no. 34](http://t3n.de/news/t
 
 ## Demo
 
-A demo installation can be found [here](http://w4.matthiaslienau.de/angular-openweather-app/app/).
+A demo site running this little app can be found [here](http://w4.matthiaslienau.de/angular-openweather-app/app/).
 
 
 ## Why?
