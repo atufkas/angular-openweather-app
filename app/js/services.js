@@ -7,7 +7,7 @@ angular.module('openWeatherApp.services', ['ngResource'])
   //
   // Simple value service (kept from angular-seed dist)
   //
-  .value('version', '0.1.3')
+  .value('version', '0.1.4')
 
 
   //
