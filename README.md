@@ -8,8 +8,7 @@ I introduced irregular tagging release states - see CHANGELOG for details.
 
 # angular-openweather-app — a weather forecast app written in AngularJS
 
-<img src="app/img/app_screenshot_v_0-1-0.png" alt="OpenWeather App Start Page"/>
-<img src="app/img/app_screenshot_v_0-1-4.png" alt="OpenWeather App Storm Special"/>
+<img src="app/img/app_screenshot_v_0-1-4.png" alt="OpenWeather App"/>
 
 "OpenWeather App" is a small AngularJS project that makes use of the [OpenWeatherMap](http://openweathermap.org/)
 service for fetching and displaying weather data and forecasts based on a given location (city).
