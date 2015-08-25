@@ -40,7 +40,7 @@ angular.module('openWeatherApp.services', ['ngResource'])
     return $resource(apiBaseUrl + ':path/:subPath?q=:location',
       {
 //        APPID: apiKey,
-        mode: 'jsonp',
+        mode: 'json',
         callback: 'JSON_CALLBACK',
         units: 'metric',
         lang: 'en'
