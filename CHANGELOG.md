@@ -2,7 +2,7 @@
 
 ## 0.1.5 (August 25, 2015)
 
-- fix: call to openweathermap api 2.5 doesn't recognize parameter+value "mode=jsonp" any more (returned status 400)
+- fix: openweathermap api 2.5 doesn't recognize query param/value "mode=jsonp" any more (returned status 400)
 - addition: added example locations "San Francisco" and "Athens" to quick selection bar
 - change: renamed label(s) "Storm Alarm" again to more neutral "Wind over Northern Germany"
 
