@@ -1,7 +1,7 @@
-#### Note: Tagging + Minor update on 2015/09/01 
-I renamed the view partial file and variables for storm "Xaver" to more neutral "storm" and adjusted the "Storm Alarm!" 
-link in the header bar so they refer to storms "Elon" and "Felix" currently making some wind over Northern Germany. 
-Furthermore I introduced irregular tagging release states - see CHANGELOG for details.
+#### Note: Tagging + Minor update on August 25, 2015
+Fixed critical bug leading to broken openweathermap API calls (possible values for API parameter "mode" in API 2.5 changed
+silently without being backwards compatible). Removed "Elon and Felix" storm name references and re-labeled "Storm Alarm"
+to "Wind over Nothern Germany".
  
 ---
 
