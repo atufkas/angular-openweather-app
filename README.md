@@ -1,7 +1,6 @@
-#### Note: Critical fix in latest update (v 0.1.5) on August 25, 2015
-Fixed critical bug leading to broken openweathermap API calls (possible values for API parameter "mode" in API 2.5 changed
-silently without maintaining backwards compatibility. Minor changes include adding some new cities to "quick selection bar"
-and re-labeling special "Storm Alarm" link and intro text (showing view presenting wind and pressure in selected cities over Northern Germany).
+#### Note: Fix in latest update (v 0.1.6) on October 30, 2015
+Fixed bug leading to broken openweathermap API calls: Header field `x-api-key`
+is not sufficient anymore, so that now an additional query parameter `APPID` is mandatory.
 
 ---
 
