@@ -8,8 +8,8 @@
   "main": "app/index.html",
   "keywords": [
     "angular",
-    "todo",
-    "pyramide"
+    "openweathermap",
+    "weather"
   ],
   "license": "MIT",
   "homepage": "https://github.com/atufkas/angular-openweather-app",
