@@ -1,7 +1,7 @@
 {
   "name": "angular-openweather-app",
-  "description": "A weather forecast app written in AngularJS based on openweathermap",
-  "version": "0.1.5",
+  "description": "A weather forecast app written in AngularJS based on OpenWeatherMap API calls",
+  "version": "0.1.6",
   "author": {
     "name": "Matthias Lienau",
     "email": "matthias@mlienau.de"

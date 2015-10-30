@@ -1,5 +1,10 @@
 # angular-openweather-app - Release Log
 
+## 0.1.6 (October 30, 2015)
+
+- fix: openweathermap api needs query parameter APPID (x-api-key not sufficient any more)
+- minor: corrected some meta package descriptions
+
 ## 0.1.5 (August 25, 2015)
 
 - fix: openweathermap api 2.5 doesn't recognize query param/value "mode=jsonp" any more (returned status 400)
