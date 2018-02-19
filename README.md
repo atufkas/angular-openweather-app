@@ -1,6 +1,8 @@
-#### Note: Fix in latest update (v 0.1.6) on October 30, 2015
-Fixed bug leading to broken openweathermap API calls: Header field `x-api-key`
-is not sufficient anymore, so that now an additional query parameter `APPID` is mandatory.
+#### Note: February 2018 housekeeping -> v 0.2.0 updates angular and fixes testing issues
+
+Updated bundled angularjs lib from angular-1.2.0-rc.2 to
+angular-1.2.32 (latest of the 1.2 release series) + updated and fixed
+dependencies on karma and jasmine modules so that tests would run and pass again.
 
 ---
 
