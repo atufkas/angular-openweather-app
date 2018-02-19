@@ -4,9 +4,10 @@
 
 Date: February 19, 2018
 
+- chore: corrected module dep to correct package name phantomjs-prebuilt
 - chore: updated bundled angularjs lib from angular-1.2.0-rc.2 to
 angular-1.2.32 (latest of the 1.2 release series) + updated and fixed
-dependencies on karma + jasmine modules so that tests would run and pass again
+dependencies on karma and jasmine modules so that tests would run and pass again
 - chore: Reformatted this changelog to move towards compatibility with
 [Conventional Commits Specification](https://conventionalcommits.org/) and [progress-keeper](https://github.com/atufkas/progress-keeper) :-)
 
