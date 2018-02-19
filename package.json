@@ -7,7 +7,8 @@
     "email": "matthias@mlienau.de"
   },
   "scripts": {
-    "start": "node scripts/web-server.js"
+    "start": "node scripts/web-server.js",
+    "test": "scripts/test.sh"
   },
   "devDependencies": {
     "jasmine-core": "^2.99.1",
