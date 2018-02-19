@@ -8,6 +8,8 @@ dependencies on karma and jasmine modules so that tests would run and pass again
 
 # angular-openweather-app — a weather forecast app written in AngularJS
 
+[![Build Status](https://travis-ci.org/atufkas/angular-openweather-app.svg?branch=master)](https://travis-ci.org/atufkas/angular-openweather-app)
+
 <img src="app/img/app_screenshot_v_0-1-4_1.png" alt="OpenWeather App"/>
 
 "OpenWeather App" is a small AngularJS project that makes use of the [OpenWeatherMap](http://openweathermap.org/)
