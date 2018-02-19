@@ -1,8 +1,8 @@
-module.exports = function(config){
-    config.set({
-    basePath : '../',
+module.exports = function(config) {
+  config.set({
+    basePath: '../',
 
-    files : [
+    files: [
       'app/lib/angular-1.2.32/angular.js',
       'app/lib/angular-1.2.32/angular-*.js',
       'test/lib/angular-1.2.32/angular-mocks.js',
@@ -10,22 +10,33 @@ module.exports = function(config){
       'test/unit/**/*.js'
     ],
 
-    autoWatch : true,
+    autoWatch: true,
 
     frameworks: ['jasmine'],
 
-    browsers : ['Chrome'],
+    browsers: ['Chrome'],
 
-    plugins : [
-            'karma-junit-reporter',
-            'karma-chrome-launcher',
-            'karma-firefox-launcher',
-            'karma-jasmine'
-            ],
+    plugins: [
+      'karma-junit-reporter',
+      'karma-chrome-launcher',
+      'karma-firefox-launcher',
+      'karma-jasmine'
+    ],
 
-    junitReporter : {
+    junitReporter: {
       outputFile: 'test_out/unit.xml',
       suite: 'unit'
-    }
+    },
 
-})}
+    customLaunchers: {
+    Chrome_travis_ci: {
+        base: 'Chrome',
+        flags: ['--no-sandbox']
+      }
+    },
+  });
+
+  if (process.env.TRAVIS) {
+    config.browsers = ['Chrome_travis_ci'];
+  }
+}

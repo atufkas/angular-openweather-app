@@ -4,6 +4,7 @@
 
 Date: February 19, 2018
 
+- chore (ci): Added integration with Travis CI.
 - doc: Corrected dependency on angular 1.2.32, added a small section about
 running test scripts and added new top note to README
 - chore: corrected module dep to correct package name phantomjs-prebuilt
