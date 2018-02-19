@@ -10,10 +10,13 @@
     "start": "node scripts/web-server.js"
   },
   "devDependencies": {
-      "phantomjs" : "*",
-      "karma" : "*",
-      "karma-junit-reporter" : "*",
-      "karma-jasmine" : "*",
-      "karma-ng-scenario" : "*"
+    "jasmine-core": "^2.99.1",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-junit-reporter": "1.2.0",
+    "karma-ng-scenario": "^1.0.0",
+    "phantomjs": "*"
   }
 }
