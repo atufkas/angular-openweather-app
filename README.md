@@ -36,7 +36,8 @@ Points of interests:
 
 angular-openweather-app uses:
 
-* [AngularJS v1.2.0-rc.2](https://github.com/angular/angular.js) / [angular-seed](https://github.com/angular/angular-seed)
+* [AngularJS v1.2.32](https://github.com/angular/angular.js)
+* [angular-seed](https://github.com/angular/angular-seed)
 * [iso-3166-country-codes-angular](https://github.com/BluePyth/iso-3166-country-codes-angular)
 * [Bootstrap v3.0.0](https://github.com/twbs/bootstrap)
 
@@ -59,11 +60,24 @@ $ npm install
 
 You can pick one of these options:
 
-* serve this repository with a webserver of-your-choice
-* install node.js and run `scripts/web-server.js`
+1. serve this repository with a webserver of-your-choice
+2. having installed node.js, you can run a script starting a simple web server:
+
+```
+$ ./scripts/web-server.js
+```
 
 Then navigate your browser to `http://localhost:<port>/app/index.html` to see the app running in
 your browser.
+
+### Run tests
+
+To run unit and end-2-end tests with karma/jasmine, call these scripts:
+
+```
+$ ./scripts/test.sh
+$ ./scripts/e2e-test.sh
+```
 
 
 ## Contribute!

@@ -4,6 +4,8 @@
 
 Date: February 19, 2018
 
+- doc: Corrected dependency on angular 1.2.32, added a small section about
+running test scripts and added new top note to README
 - chore: corrected module dep to correct package name phantomjs-prebuilt
 - chore: updated bundled angularjs lib from angular-1.2.0-rc.2 to
 angular-1.2.32 (latest of the 1.2 release series) + updated and fixed
