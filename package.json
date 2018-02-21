@@ -2,9 +2,14 @@
   "name": "angular-openweather-app",
   "description": "A weather forecast app written in AngularJS based on OpenWeatherMap API calls",
   "version": "0.1.6",
+  "license": "MIT",
   "author": {
     "name": "Matthias Lienau",
     "email": "matthias@mlienau.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/atufkas/angular-openweather-app.git"
   },
   "scripts": {
     "start": "node scripts/web-server.js",

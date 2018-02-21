@@ -1,5 +1,11 @@
 # angular-openweather-app - CHANGELOG
 
+## 0.2.1
+
+Date: ?
+
+- chore: Added missing npm fields "repository" and "license".
+
 ## 0.2.0
 
 Date: February 19, 2018
@@ -31,7 +37,7 @@ any more (returned status 400)
 - addition: added example locations "San Francisco" and "Athens" to quick
 selection bar
 - chore: renamed label(s) "Storm Alarm" again to more neutral "Wind over
-Northern Germany"
+Northern Germany"˘
 
 ## 0.1.4
 
