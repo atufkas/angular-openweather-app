@@ -12,7 +12,7 @@
     "url": "git://github.com/atufkas/angular-openweather-app.git"
   },
   "scripts": {
-    "start": "node scripts/web-server.js",
+    "start": "npx serve app",
     "test": "scripts/all-tests.sh"
   },
   "devDependencies": {
