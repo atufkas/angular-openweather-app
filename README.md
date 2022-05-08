@@ -1,12 +1,9 @@
-#### Note: February 2018 housekeeping -> v 0.2.0 updates angular and fixes testing issues
-
-Updated bundled angularjs lib from angular-1.2.0-rc.2 to
-angular-1.2.32 (latest of the 1.2 release series) + updated and fixed
-dependencies on karma and jasmine modules so that tests would run and pass again.
+# angular-openweather-app — a weather forecast app written in AngularJS
 
 ---
+Note: May 2ß22 housekeeping -> latest Release 0.3.0 updates jasmine/karma and fixes security vulnerabilities
 
-# angular-openweather-app — a weather forecast app written in AngularJS
+---
 
 [![Build Status](https://travis-ci.org/atufkas/angular-openweather-app.svg?branch=master)](https://travis-ci.org/atufkas/angular-openweather-app)
 
