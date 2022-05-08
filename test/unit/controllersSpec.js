@@ -22,8 +22,8 @@ describe('OpenWeather App controllers', function(){
       ctrl = $controller('OpenWeatherCtrl', { $scope: $scope });
     }));
 
-//    it('should set the default value of iconBaseUrl', function() {
-//      expect($scope.iconBaseUrl).toBe('http://openweathermap.org/img/w/');
-//    });
+   it('should set the default value of iconBaseUrl', function() {
+     expect($scope.iconBaseUrl).toBe('http://openweathermap.org/img/w/');
+   });
   });
 });

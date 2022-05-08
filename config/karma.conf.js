@@ -5,6 +5,7 @@ module.exports = function(config) {
     files: [
       'app/lib/angular-1.2.32/angular.js',
       'app/lib/angular-1.2.32/angular-*.js',
+      'app/lib/iso-3166-country-codes-angular/*.js',
       'test/lib/angular-1.2.32/angular-mocks.js',
       'app/js/**/*.js',
       'test/unit/**/*.js'
