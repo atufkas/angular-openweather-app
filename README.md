@@ -60,14 +60,13 @@ $ npm install
 You can pick one of these options:
 
 1. serve this repository with a webserver of-your-choice
-2. having installed node.js, you can run a script starting a simple web server:
+2. having installed node/npm (> 5.2.1), you can start a simple web server with `npx`:
 
 ```
-$ ./scripts/web-server.js
+$ npx serve app
 ```
 
-Then navigate your browser to `http://localhost:<port>/app/index.html` to see the app running in
-your browser.
+Then open `http://localhost:3000/` in your browser.
 
 ### Run tests
 
