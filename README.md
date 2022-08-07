@@ -1,7 +1,7 @@
 # angular-openweather-app — a weather forecast app written in AngularJS
 
 ---
-Note: May 2ß22 housekeeping -> latest Release 0.3.0 updates jasmine/karma and fixes security vulnerabilities
+Note: May 2022 housekeeping -> latest Release 0.3.0 updates jasmine/karma and fixes security vulnerabilities
 
 ---
 
