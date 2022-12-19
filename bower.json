@@ -12,8 +12,8 @@
     "weather"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/atufkas/angular-openweather-app",
-  "private": true,
+  "homepage": "https://github.com/barionleg/angular-openweather-app",
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
