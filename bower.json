@@ -13,7 +13,7 @@
   ],
   "license": "MIT",
   "homepage": "https://github.com/barionleg/angular-openweather-app",
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
