@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/atufkas/angular-openweather-app.git"
+    "url": "git://github.com/barionleg/angular-openweather-app.git"
   },
   "scripts": {
     "start": "npx serve app",
