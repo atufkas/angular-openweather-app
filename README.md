@@ -92,6 +92,10 @@ for desktop and mobile use?
 * Build a view with n-day-forecast in typical weather app style
 * Improve UI/UX by integrating a fancy design, transitions, effects
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=atufkas/angular-openweather-app&type=Date)](https://star-history.com/#atufkas/angular-openweather-app&Date)
+
 
 ## License
 
