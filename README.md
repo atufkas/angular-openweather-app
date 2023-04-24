@@ -5,7 +5,7 @@ Note: May 2022 housekeeping -> latest Release 0.3.0 updates jasmine/karma and fi
 
 ---
 
-[![Build Status](https://travis-ci.org/atufkas/angular-openweather-app.svg?branch=master)](https://travis-ci.org/atufkas/angular-openweather-app)
+[//]: # ([![Build Status]&#40;https://travis-ci.org/atufkas/angular-openweather-app.svg?branch=master&#41;]&#40;https://travis-ci.org/atufkas/angular-openweather-app&#41;)
 
 <img src="app/img/app_screenshot_v_0-1-4_1.png" alt="OpenWeather App"/>
 
