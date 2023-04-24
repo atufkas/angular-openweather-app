@@ -5,7 +5,7 @@ Note: May 2022 housekeeping -> latest Release 0.3.0 updates jasmine/karma and fi
 
 ---
 
-[![Build Status](https://travis-ci.org/atufkas/angular-openweather-app.svg?branch=master)](https://travis-ci.org/atufkas/angular-openweather-app)
+[//]: # ([![Build Status]&#40;https://travis-ci.org/atufkas/angular-openweather-app.svg?branch=master&#41;]&#40;https://travis-ci.org/atufkas/angular-openweather-app&#41;)
 
 <img src="app/img/app_screenshot_v_0-1-4_1.png" alt="OpenWeather App"/>
 
@@ -91,6 +91,10 @@ for desktop and mobile use?
 * Provide "use current location" and fetch data via lat/lon
 * Build a view with n-day-forecast in typical weather app style
 * Improve UI/UX by integrating a fancy design, transitions, effects
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=atufkas/angular-openweather-app&type=Date)](https://star-history.com/#atufkas/angular-openweather-app&Date)
 
 
 ## License
