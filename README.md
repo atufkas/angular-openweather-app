@@ -1,8 +1,11 @@
 # angular-openweather-app — a weather forecast app written in AngularJS
 
 ---
-Note: April 2023 housekeeping -> latest Release 0.3.2 fixes security vulnerabilities.
+Note: August 2024 housekeeping -> latest Release 0.3.3 
 
+- pins node engine version to >= 20.0.0 and npm engine to >= 10.0.0
+- changes various http urls to their https equivalents where applicable.
+- applies fixes via `npm audit fix` 
 ---
 
 [//]: # ([![Build Status]&#40;https://travis-ci.org/atufkas/angular-openweather-app.svg?branch=master&#41;]&#40;https://travis-ci.org/atufkas/angular-openweather-app&#41;)
