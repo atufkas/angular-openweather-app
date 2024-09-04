@@ -15,7 +15,7 @@ describe('OpenWeather App controllers', function(){
 
     beforeEach(inject(function(_$httpBackend_, $rootScope, $controller) {
       $httpBackend = _$httpBackend_;
-      $httpBackend.expectGET('http://api.openweathermap.org/data/2.5').
+      $httpBackend.expectGET('https://api.openweathermap.org/data/2.5').
         respond([{forecast: {city: {name: 'Hamburg'} } }]);
 
       $scope = $rootScope.$new();
@@ -23,7 +23,7 @@ describe('OpenWeather App controllers', function(){
     }));
 
    it('should set the default value of iconBaseUrl', function() {
-     expect($scope.iconBaseUrl).toBe('http://openweathermap.org/img/w/');
+     expect($scope.iconBaseUrl).toBe('https://openweathermap.org/img/w/');
    });
   });
 });

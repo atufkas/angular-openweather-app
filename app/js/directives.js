@@ -31,7 +31,7 @@ angular.module('openWeatherApp.directives', [])
       link: function(scope, element, attrs) {
         // Get icon image url
         scope.getIconImageUrl = function(iconName) {
-          return (iconName ? 'http://openweathermap.org/img/w/' + iconName + '.png' : '');
+          return (iconName ? 'https://openweathermap.org/img/w/' + iconName + '.png' : '');
         };
 
         scope.parseDate = function (time) {
@@ -58,7 +58,7 @@ angular.module('openWeatherApp.directives', [])
     link: function(scope, element, attrs) {
       // Get icon image url
       scope.getIconImageUrl = function(iconName) {
-        return (iconName ? 'http://openweathermap.org/img/w/' + iconName + '.png' : '');
+        return (iconName ? 'https://openweathermap.org/img/w/' + iconName + '.png' : '');
       };
 
       scope.parseDate = function (time) {

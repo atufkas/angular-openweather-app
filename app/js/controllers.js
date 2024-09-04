@@ -15,7 +15,7 @@ angular.module('openWeatherApp.controllers', [])
     // Expose example locations to $scope
     $scope.exampleLocations = exampleLocations;
     $scope.stormLocations = stormLocations;
-    $scope.iconBaseUrl = 'http://openweathermap.org/img/w/';
+    $scope.iconBaseUrl = 'https://openweathermap.org/img/w/';
 
     // On initialization load data for first example entry
     $scope.forecast = openWeatherMap.queryForecastDaily({
