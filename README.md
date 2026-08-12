@@ -1,3 +1,5 @@
+
+
 # angular-openweather-app — a weather forecast app written in AngularJS
 
 ---
@@ -63,7 +65,7 @@ $ npm install
 You can pick one of these options:
 
 1. serve this repository with a webserver of-your-choice
-2. having installed node/npm (> 5.2.1), you can start a simple web server with `npx`:
+2. having installed node/npm (>= 20.0.0), you can start a simple web server with `npx`:
 
 ```
 $ npx serve app
